@@ -10,7 +10,7 @@ function Hero() {
                 style={{ backgroundImage: `url(${backgroundImage})` }}
             >
                 <h1 className="text-5xl md:text-6xl font-extrabold leading-tight">
-                    Welcome to DRAX 2024
+                    Welcome to GU TechFest 2024
                 </h1>
                 <p className="mt-6 text-lg md:text-xl text-gray-300">
                     TECH on the unforgettable tech fest experience with exhibitions, guest lectures, workshops, and more.

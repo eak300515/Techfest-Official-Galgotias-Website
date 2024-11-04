@@ -23,9 +23,9 @@ const Herooo = () => {
       <div className="container relative" ref={parallaxRef}>
         <div className="relative z-1 max-w-[62rem] mx-auto text-center mb-[3.875rem] md:mb-20 lg:mb-[6.25rem]">
           <h1 className="h1 mb-6">
-          Code, Create, Conquer: Dive into the Pulse of Tomorrow&nbsp;At&nbsp;Galgotias Techfest {` `}
+          Code, Create, Conquer: Dive into the Pulse of Tomorrow&nbsp;At&nbsp;Galgotias {` `}
             <span className="inline-block relative">
-              DRAX 2024{" "}
+              Techfest 2024{" "}
               <img
                 src={curve}
                 className="absolute top-full left-0 w-full xl:-mt-2"
