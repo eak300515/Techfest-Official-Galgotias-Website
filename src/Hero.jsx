@@ -23,7 +23,7 @@ function Hero() {
             {/* Right Side - Spline Embed */}
             <div className="w-2/3 h-full">
                 <iframe
-                    src="https://my.spline.design/interactivecubesexperiencesplinetutorialcopycopy-b1c78da0586c9d203794e6264179f74b/"
+                    src="https://my.spline.design/interactivecubesexperiencesplinetutorialcopycopycopy-8ae5cb98a817a60b6995ae14ac6dfe60/"
                     style={{ width: "100%", height: "100%", border: "none" }}
                     title="3D Boxes Background"
                 ></iframe>
