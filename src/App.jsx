@@ -10,6 +10,7 @@ import Herooo from './components/Herooo';
 import Hero from './Hero'
 
 import './index.css';
+import Workshops from "./Workshops";
 
 function App() {
     return (
@@ -23,6 +24,7 @@ function App() {
             <Services />
             <Pricing />
             <Roadmap />
+            <Workshops />
             <Footer />
           </div>
     

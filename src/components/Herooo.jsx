@@ -36,11 +36,40 @@ const Herooo = () => {
             </span>
           </h1>
           <p className="body-1 max-w-3xl mx-auto mb-6 text-n-2 lg:mb-8">
-          Step into the world of tomorrow with Galgotias Techfest 2024 – a journey through groundbreaking innovations, interactive experiences, and future-ready tech.
-          </p>
-          <Button href="/pricing" white>
-            Start Diving!!
-          </Button>
+  Step into the world of tomorrow with Galgotias Techfest 2024 – a journey through groundbreaking innovations, interactive experiences, and future-ready tech.
+</p>
+
+{/* Key Date Cards */}
+<div className="flex flex-wrap justify-center gap-4 mb-8">
+  {/* Registration End Date Card */}
+  <div className="bg-white shadow-lg rounded-lg p-4 max-w-xs w-full sm:w-auto text-center">
+    <h3 className="text-lg font-semibold mb-1 text-gray-800">Registration Ends</h3>
+    <p className="text-gray-500 text-sm">December 13, 2024</p>
+  </div>
+
+  {/* Event Start Date Card */}
+  <div className="bg-white shadow-lg rounded-lg p-4 max-w-xs w-full sm:w-auto text-center">
+    <h3 className="text-lg font-semibold mb-1 text-gray-800">Event Starts</h3>
+    <p className="text-gray-500 text-sm">December 20, 2024</p>
+  </div>
+  
+  {/* Event End Date Card */}
+  <div className="bg-white shadow-lg rounded-lg p-4 max-w-xs w-full sm:w-auto text-center">
+    <h3 className="text-lg font-semibold mb-1 text-gray-800">Event Ends</h3>
+    <p className="text-gray-500 text-sm">December 23, 2024</p>
+  </div>
+</div>
+
+          <div className="flex justify-center space-x-4 mb-6 lg:mb-8">
+  <Button href="/pricing" white>
+    Event Brochure
+  </Button>
+  
+  <Button href="/pricing" white>
+    Register Now!
+  </Button>
+</div>
+
         </div>
         <div className="relative max-w-[23rem] mx-auto md:max-w-5xl xl:mb-24">
           <div className="relative z-1 p-0.5 rounded-2xl bg-conic-gradient">
